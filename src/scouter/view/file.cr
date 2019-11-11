@@ -15,11 +15,11 @@ class Scouter::View::File < Scouter::View
     true
   end
 
-  def parent
+  def parent : View
     View::Empty.singleton
   end
 
-  def focus
+  def focus : View
     View::Empty.singleton
   end
 end

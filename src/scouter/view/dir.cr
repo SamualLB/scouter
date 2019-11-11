@@ -29,8 +29,8 @@ class Scouter::View::Dir < Scouter::View
     return true if @entries.empty?
     painter.push(0, 2)
 
-    start_index = @index - painter.h/2
-    end_index = @index + (painter.h+0.5)/2
+    start_index = (@index - painter.h/2).floor.to_i
+    end_index = (@index + (painter.h+0.5)/2).floor.to_i
     count = 0
     (start_index...end_index).each do |i|
       count += 1
