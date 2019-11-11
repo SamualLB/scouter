@@ -1,0 +1,14 @@
+version: 1.0
+shards:
+  lib_termbox:
+    github: SamualLB/termbox
+    commit: cbbc5d121838506958626eedeedb02e2ff74fcff
+
+  ncurses:
+    github: SamualLB/ncurses
+    version: 0.0.5
+
+  tui:
+    github: SamualLB/tui
+    commit: e3f18c10f5a853b70b2ee0862272e0eb6bba8b89
+

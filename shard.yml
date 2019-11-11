@@ -1,0 +1,19 @@
+name: scouter
+version: 0.1.0
+
+authors:
+  - Samual Black <samuallb@hotmail.com>
+
+targets:
+  scouter:
+    main: src/scouter.cr
+
+dependencies:
+  tui:
+    github: SamualLB/tui
+  lib_termbox:
+    github: SamualLB/termbox
+
+crystal: 0.30.1
+
+license: MIT
